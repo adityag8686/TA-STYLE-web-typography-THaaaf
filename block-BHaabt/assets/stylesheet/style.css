@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+	font-family: 'Karla', sans-serif;
+    }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	width: 1200px;
+	margin: 20px 50px;
+	}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	font-size: 36px;
+	color: #2D2640;
+	font-family: 'DM Serif Display', serif;
+}
+.tab a{
+    text-decoration: none;
+	padding: 20px;
+	color: #77747D;
+	font-family: 'DM Serif Display', serif;
+}
+.tab button{
+	padding: 5px;
+	font-family: 'DM Serif Display', serif;
+}
+.info{
+	background-color: #2D2640;
+	padding: 30px 0;
+	position: relative;
+}
+.article1{
+	width: 50%;
+}
+hr{
+	width: 25%;
+	margin-left: 0px;
+	color: #FFFFFF;
+	}
+h2{
+	font-size: 58px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	font-family: 'DM Serif Display', serif;
+}
+.article1 p{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+.position-image{
+	position: absolute;
+	top: 40px;
+	right: 110px;
+}
+.position-image img{
+	width: 350px;
+}
+.article1 button{
+	color: #FFFFFF;
+	background-color: #2D2640;
+}
+.col1 img{
+	margin-top: 70px;
+	width: 50%;
+	height: 500px;
+}
+h3{
+	font-size: 44px;
+	color: #2D2640;
+	font-family: 'DM Serif Display', serif;
+}
+.col2{
+	margin-left: 100px;
+	padding: 20px;
+}
+.col2 p{
+	color: #bdbcc0;
+}
+.col2 button{
+	margin-top: 10px;
+	padding: 5px;
+	color: #2D2640;
+}
+.block{
+	margin-top: 70px;
+}
+.segment{
+	width: 30%;
+	margin-top: 40px;
+}
+.segment i{
+	background-color:#8AB4F0;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	}
+h4{
+	font-size: 30px;
+	font-family: 'DM Serif Display', serif;
+	color: #2D2640;
+	margin-top: 20px;
+	}
+.segment2{
+	padding: 50px;
+	background-color: #2D2640;
+	margin-top: 40px;
+}
+.segment2 h3{
+	color: #FFFFFF;
+	width: 50%;
+	font-size: 54px;
+}
+.segment2 button{
+	background-color: #2D2640;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.segment3{
+	margin-top: 40px;
+}
+.links i{
+	padding-right: 10px;
+}
+.segment3 hr{
+	width: 100%;
+	}
+.nav a{
+		padding: 20px;
+		text-decoration: none;
+		color: #77747D;
+}
+.nav{
+	text-align: center;
+	font-family: 'DM Serif Display', serif;
+}
+footer{
+	text-align: center;
+	background-color: #2D2640;
+	color: #FFFFFF;
+	padding: 10px;
+	font-weight: 300;
+}
